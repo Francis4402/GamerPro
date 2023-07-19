@@ -280,6 +280,58 @@ td {
     margin-bottom: 30px;
 }
 
+.app-adds{
+    padding: 0 240px;
+    margin-top: 120px;
+}
+
+.add1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 150px;
+}
+
+
+.add1-image2 {
+    position: relative;
+    bottom: 250px;
+    right: 320px;
+}
+
+.add1text {
+    text-align: right;
+    margin: auto;
+}
+
+.add1text h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.add1text h1 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.add1text p {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 353px;
+    margin-top: 24px;
+}
+
 @media screen and (max-width: 576px) {
     .header{
         flex-direction: column;
@@ -422,6 +474,49 @@ td {
         font-size: 15px;
         margin-bottom: 30px;
     }
+
+    .app-adds{
+        padding: 12px;
+        margin-top: 40px;
+    }
+    
+    .add1{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .add1-image1{
+        width: 70%;
+    }
+    
+    .add1-image2 {
+        bottom: 65px;
+        right: 120px;
+        width: 30%;
+    }
+    
+    .add1text {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .add1text h1{
+        font-size: 38px;        
+    }
+    
+    .add1text h1 span {
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .add1text p {
+        color: #534C64;
+        text-align: center;
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 1252px) {
@@ -495,5 +590,48 @@ td {
     .gird-container p {
         font-size: 18px;
         margin-bottom: 30px;
+    }
+
+    .app-adds{
+        padding: 12px;
+        margin-top: 40px;
+    }
+    
+    .add1{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    
+    .add1-image1{
+        width: 70%;
+    }
+    
+    .add1-image2 {
+        bottom: 250px;
+        right: 300px;
+        width: 30%;
+    }
+    
+    .add1text {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .add1text h1{
+        font-size: 48px;        
+    }
+    
+    .add1text h1 span {
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .add1text p {
+        color: #534C64;
+        text-align: center;
+        font-size: 18px;
     }
 }
