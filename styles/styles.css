@@ -78,22 +78,28 @@
     color: red;
 }
 
-.topintro{
+
+.heading{
     display: flex;
-    gap: 30px;
     align-items: center;
-    margin: auto;
+    justify-content: space-between;
 }
 
-.introtitle{
+.topsignup{
+    background-image: url('../images/Group 14.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 203px 280px;
+}
+
+.topsignup p {
     color: #0B0223;
-    text-align: center;
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.goadtext {
+.topsignup h1 {
     text-align: center;
     font-size: 95px;
     font-weight: 800;
@@ -102,29 +108,19 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 24px;
 }
 
-.topintrobox {
-    background-image: url('../images/Group 14.png');
-    background-position: left;
-    background-repeat: no-repeat;
-    padding: 120px 274px;
-}
-
-
-.topinrtoimage img {
-    width: 100%;
-}
-
-.topintrobox p {
+td {
     color: #534C64;
+    text-align: left;
     font-size: 20px;
     font-weight: 500;
     text-transform: lowercase;
-    line-height: 40px;
-    align-items: center;
-    text-align: left;
+}
+
+.headerimg img{
+    padding-right: 230px;
+    width: 100%;
 }
 
 .btn {
@@ -171,6 +167,7 @@
         flex-direction: column;
         box-shadow: none;
         margin-top: 60px;
+        padding: 0px;
     }
 
     .nav ul {
@@ -181,28 +178,38 @@
     .nav .follow-icons{
         margin-top: 10px;
     }
+    
 
-    .topintro{
+    .heading{
         flex-direction: column-reverse;
-        padding: 0px 40px;
+        align-items: center;
+        justify-content: center;
+        margin: 78px 30px;
+        gap: 24px;
+    }
+
+    .headerimg img{
+        padding-right: 0px;
+    }
+
+    .topsignup{
+        padding: 50px 80px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-size: 27rem 26rem;
+    }
+
+    .topsignup p {
+        font-size: 25px;
     }
     
-    .topintrobox {
-        background-size: 3rem 3rem;
-        background-position: center;
+    .topsignup h1 {
+        font-size: 55px;
     }
-
-    .introtitle {
-        font-size: 28px; 
-    }
-
-    .goadtext{
-        font-size: 56px;
-    }
-
-    .topintrobox p {
+    
+    td {
         font-size: 12px;
-        line-height: 20px;
     }
 
     .btn {
@@ -232,6 +239,7 @@
         flex-direction: column;
         box-shadow: none;
         margin-top: 60px;
+        padding: 0px;
     }
 
     .nav ul {
@@ -243,12 +251,16 @@
         margin-top: 30px;
     }
 
-    .topintro{
+    .heading{
         flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 78px 30px;
+        gap: 24px;
     }
 
-    .topintrobox {
-        background-size: 56rem 50rem;
-        background-position: center;
+    .headerimg img{
+        padding-right: 0px;
     }
+
 }
