@@ -12,11 +12,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 38px 240px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     position: relative;
+    margin: auto;
+    width: 100%;
+    padding: 38px 240px;
 }
+
 
 .headerlogo {
     display: flex;
@@ -79,6 +82,7 @@
     display: flex;
     gap: 30px;
     align-items: center;
+    margin: auto;
 }
 
 .introtitle{
@@ -105,7 +109,7 @@
     background-image: url('../images/Group 14.png');
     background-position: left;
     background-repeat: no-repeat;
-    padding: 125px 274px;
+    padding: 120px 274px;
 }
 
 
@@ -130,9 +134,9 @@
 }
 
 .btn1 {
-    display: inline-flex;
+    display: flex;
     padding: 21px 40px;
-    align-items: flex-start;
+    align-items: center;
     border-radius: 48px;
     border: none;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
@@ -147,9 +151,9 @@
 }
 
 .btn2 {
-    display: inline-flex;
+    display: flex;
     padding: 21px 40px;
-    align-items: flex-start;
+    align-items: center;
     border-radius: 48px;
     background: #4EC5F7;
     border: none;
@@ -165,28 +169,69 @@
 @media screen and (max-width: 576px) {
     .header{
         flex-direction: column;
-        margin: 100px auto;
+        box-shadow: none;
+        margin-top: 60px;
     }
 
     .nav ul {
-        margin-top: 62px;
+        margin-top: 60px;
         flex-direction: column;
     }
     
     .nav .follow-icons{
-        margin-top: 40px;
+        margin-top: 10px;
     }
 
     .topintro{
         flex-direction: column-reverse;
+        padding: 0px 40px;
     }
     
+    .topintrobox {
+        background-size: 3rem 3rem;
+        background-position: center;
+    }
+
+    .introtitle {
+        font-size: 28px; 
+    }
+
+    .goadtext{
+        font-size: 56px;
+    }
+
+    .topintrobox p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .btn {
+        margin-top: 25px;
+        gap: 10px;
+    }
+    
+    .btn1 {
+        padding: 12px 20px;
+    }
+    
+    .btn1 a {
+        font-size: 10px;
+    }
+    
+    .btn2 {
+        padding: 12px 20px;
+    }
+    
+    .btn2 a {
+        font-size: 10px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 1252px) {
     .header{
-        padding: 100px auto;
         flex-direction: column;
+        box-shadow: none;
+        margin-top: 60px;
     }
 
     .nav ul {
@@ -195,10 +240,15 @@
     }
 
     .nav .follow-icons{
-        margin-top: 40px;
+        margin-top: 30px;
     }
 
     .topintro{
         flex-direction: column-reverse;
+    }
+
+    .topintrobox {
+        background-size: 56rem 50rem;
+        background-position: center;
     }
 }
