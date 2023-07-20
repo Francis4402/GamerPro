@@ -136,9 +136,6 @@ td {
     border-radius: 48px;
     border: none;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-}
-
-.btn1 a {
     text-decoration: none;
     color: #FFF;
     font-size: 20px;
@@ -153,14 +150,24 @@ td {
     border-radius: 48px;
     background: #4EC5F7;
     border: none;
-}
-
-.btn2 a {
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
 }
+
+.btn1:hover {
+    cursor: pointer;
+    background: #3a90b4;
+    border-radius: 48px;
+}
+
+.btn2:hover {
+    cursor: pointer;
+    background: #44acd8;
+    border-radius: 48px;
+}
+
 
 .know-more {
     display: flex;
@@ -201,13 +208,16 @@ td {
     border: none;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     margin-bottom: 24px;
-}
-
-.btn3 a{
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+.btn3:hover{
+    border-radius: 48px;
+    background: #d6388a;
+    cursor: pointer;
 }
 
 .kn-ourperpos {
@@ -378,6 +388,186 @@ td {
     left: 770px;
 }
 
+.careers {
+    display: flex;
+    padding: 0px 240px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.careerstext-section{
+    display: block;
+}
+
+.careertitle {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    width: 426px;
+}
+
+.careerph {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 680px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.lists {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    gap: 97px;
+}
+
+
+.listcard2{
+    text-align: right;
+}
+
+.lists li {
+    list-style: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.btn4 {
+    display: flex;
+    padding: 21px 40px;
+    align-items: center;
+    border-radius: 48px;
+    background: #FFF;
+    border: none;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:  #FF42A5;
+}
+
+.btn4:hover{
+    background: #dfdfdf;
+    border-radius: 48px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.reactanglebutton {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    padding: 120px 240px;
+    gap: 27px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+
+.rectbtn1, .rectbtn2, .rectbtn3, .rectbtn4, .rectbtn5, .rectbtn6, .rectbtn7, .rectbtn8, .rectbtn9{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 18px 20px;
+    gap: 30px;
+}
+
+.footer {
+    background: #0B0223;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+}
+
+.logotitle2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF; 
+}
+
+.headerlogo2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 66px;
+    gap: 20px;
+}
+
+.logotitle2 span{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footernav {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 56px;
+}
+
+.footernav li{
+    list-style: none;
+}
+
+.footernav a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footericons {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 64px;
+}
+
+.footericons li {
+    list-style: none;
+}
+
+.footericons a {
+    color: #FFF;
+}
+
+.footerterms {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 28px;
+}
+
+.footerterms li {
+    list-style: none;
+}
+
+.footerterms a {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footertext p {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
 @media screen and (max-width: 576px) {
     .header{
         flex-direction: column;
@@ -435,19 +625,15 @@ td {
     
     .btn1 {
         padding: 12px 20px;
-    }
-    
-    .btn1 a {
         font-size: 10px;
     }
+    
     
     .btn2 {
         padding: 12px 20px;
-    }
-    
-    .btn2 a {
         font-size: 10px;
     }
+    
 
     .know-more {
         flex-direction: column;
@@ -477,9 +663,6 @@ td {
     
     .btn3{
         padding: 20px 25px;
-    }
-    
-    .btn3 a{
         font-size: 15px;
     }
     
@@ -527,7 +710,6 @@ td {
     }
     
     .add1{
-        display: flex;
         flex-direction: column;
         gap: 50px;
     }
@@ -549,7 +731,8 @@ td {
     }
     
     .addtitle{
-        font-size: 38px;        
+        font-size: 38px;     
+        margin-bottom: 70px;   
     }
     
     
@@ -559,7 +742,6 @@ td {
     }
 
     .add2 {
-        display: flex;
         flex-direction: column;
         gap: 50px;
         margin-top: 50px;
@@ -574,6 +756,7 @@ td {
         text-align: center;
         font-size: 35px;
         width: 100%;
+        margin-bottom: 70px;
     }
     
     .addph2{
@@ -590,6 +773,141 @@ td {
         left: 120px;
         width: 30%;
     }
+
+    .careers {
+        flex-direction: column;
+        padding: 120px 20px;
+        gap: 120px;
+    }
+
+    .careerimage img {
+        width: 100%;
+    }
+
+    .careertitle {
+        font-size: 38px;
+        line-height: 30px;
+        width: 100%;
+    }
+    
+    .careerph {
+        font-size: 12px;
+        line-height: 25px;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .lists {
+        text-align: left;
+        justify-content: space-between;
+        gap: 5px;
+    }
+    
+    
+    .listcard2{
+        text-align: right;
+    }
+    
+    .lists li {
+        color: #FFF;
+        font-size: 10px;
+        line-height: 30px;
+    }
+    
+    .btn4 {
+        padding: 18px 20px;
+        border: none;
+    }
+    
+    .btn4 a {
+        font-size: 12px;
+    }
+
+    .reactanglebutton {
+        padding: 20px;
+    }
+
+
+
+
+    .footer {
+        padding: 120px 20px;
+    }
+    
+    .logotitle2 {
+        font-size: 45px;
+    }
+    
+    .headerlogo2 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 66px;
+        gap: 20px;
+    }
+    
+    .logotitle2 span{
+        background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .footernav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-bottom: 86px;
+    }
+    
+    .footernav li{
+        list-style: none;
+    }
+    
+    .footernav a {
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .footericons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 80px;
+    }
+    
+    .footericons li {
+        list-style: none;
+    }
+    
+    .footericons a {
+        color: #FFF;
+    }
+    
+    .footerterms {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        margin-bottom: 28px;
+    }
+    
+    .footerterms li {
+        list-style: none;
+    }
+    
+    .footerterms a {
+        color: rgba(255, 255, 255, 0.60);
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .footertext p {
+        color: rgba(255, 255, 255, 0.60);
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
 }
 
 @media screen and (min-width: 576px) and (max-width: 1252px) {
@@ -741,4 +1059,23 @@ td {
         left: 320px;
         width: 30%;
     }
+
+    .careers {
+        flex-direction: column;
+        padding: 120px 20px;
+        gap: 120px;
+    }
+
+    .careerimage img {
+        width: 100%;
+    }
+
+    .reactanglebutton {
+        padding: 120px;
+    }
+
+    .footernav {
+        gap: 30px;
+    }
+    
 }
