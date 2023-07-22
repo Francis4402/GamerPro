@@ -698,6 +698,10 @@ a {
     .ao-text {
         font-size: 12px;
     }
+
+    .gird-container a img {
+        width: 100%;
+    }
     
     .gird-container p {
         font-size: 15px;
