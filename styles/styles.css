@@ -293,6 +293,8 @@ td {
 .app-adds{
     padding: 0 240px;
     margin-top: 120px;
+    width: 100%;
+    display: block;
 }
 
 .add1{
@@ -303,12 +305,6 @@ td {
     gap: 150px;
 }
 
-
-.add1-image2 {
-    position: absolute;
-    bottom: -2360px;
-    right: 710px;
-}
 
 .add1text {
     text-align: right;
@@ -382,11 +378,6 @@ td {
     margin-top: 24px;
 }
 
-.add1-image3 {
-    position: absolute;
-    bottom: -3230px;
-    left: 770px;
-}
 
 .careers {
     display: flex;
@@ -394,6 +385,7 @@ td {
     justify-content: space-between;
     align-items: center;
     margin-top: 120px;
+    width: 100%;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
 
@@ -596,18 +588,24 @@ a {
 
     .headerimg img{
         padding-right: 0px;
+        width: 100%;
     }
 
     .topsignup{
-        padding: 50px 80px;
+        width: 100%;
+        padding: 50px 0px;
         text-align: center;
         align-items: center;
         justify-content: center;
-        background-size: 27rem 26rem;
+        background-size: 20rem 20rem;
     }
 
     .topsignup p {
         font-size: 25px;
+    }
+
+    .table {
+        padding-left: 60px;
     }
     
     .topsignup h1 {
@@ -619,6 +617,7 @@ a {
     }
 
     .btn {
+        justify-content: center;
         margin-top: 25px;
         gap: 10px;
     }
@@ -709,8 +708,11 @@ a {
     }
 
     .app-adds{
-        padding: 12px;
+        padding: 10px;
         margin-top: 40px;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
     }
     
     .add1{
@@ -722,27 +724,24 @@ a {
         width: 70%;
     }
     
-    .add1-image2 {
-        position: relative;
-        bottom: 65px;
-        right: 120px;
-        width: 30%;
-    }
-    
     .add1text {
         text-align: center;
         margin: auto;
+        width: 100%;
+        justify-content: center;
     }
     
     .addtitle{
-        font-size: 38px;     
-        margin-bottom: 70px;   
+        text-align: center;
+        font-size: 32px;     
+        margin-bottom: 50px;   
     }
     
     
     .addph {
         text-align: center;
         font-size: 15px;
+        width: 100%;
     }
 
     .add2 {
@@ -755,10 +754,14 @@ a {
         text-align: center;
         width: 100%;
     }
+
+    .add1-image {
+        width: 100%;
+    }
     
     .addtitle2 {
         text-align: center;
-        font-size: 35px;
+        font-size: 30px;
         width: 100%;
         margin-bottom: 70px;
     }
@@ -770,18 +773,12 @@ a {
         margin-top: 24px;
         width: 100%;
     }
-    
-    .add1-image3 {
-        position: relative;
-        bottom: 65px;
-        left: 120px;
-        width: 30%;
-    }
 
     .careers {
         flex-direction: column;
         padding: 120px 20px;
         gap: 120px;
+        width: 100%;
     }
 
     .careerimage img {
@@ -789,7 +786,7 @@ a {
     }
 
     .careertitle {
-        font-size: 38px;
+        font-size: 32px;
         line-height: 30px;
         width: 100%;
     }
@@ -840,13 +837,13 @@ a {
     }
     
     .logotitle2 {
-        font-size: 45px;
+        font-size: 35px;
     }
     
     .headerlogo2 {
         display: flex;
         align-items: center;
-        margin-bottom: 66px;
+        margin-bottom: 56px;
         gap: 20px;
     }
     
@@ -1002,13 +999,6 @@ a {
         width: 70%;
     }
     
-    .add1-image2 {
-        position: relative;
-        bottom: 250px;
-        right: 300px;
-        width: 30%;
-    }
-    
     .add1text {
         text-align: center;
         margin: auto;
@@ -1057,12 +1047,6 @@ a {
         margin-top: 24px;
     }
     
-    .add1-image3 {
-        position: relative;
-        bottom: 200px;
-        left: 320px;
-        width: 30%;
-    }
 
     .careers {
         flex-direction: column;
