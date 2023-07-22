@@ -477,6 +477,12 @@ a {
     gap: 30px;
 }
 
+.rectbtn1:hover, .rectbtn2:hover, .rectbtn3:hover, .rectbtn4:hover, .rectbtn5:hover, .rectbtn6:hover, .rectbtn7:hover, .rectbtn8:hover, .rectbtn9:hover{
+    background: #e9e9e9;
+
+}
+
+
 .footer {
     background: #0B0223;
     display: flex;
