@@ -462,7 +462,8 @@ a {
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
-    padding: 120px 240px;
+    justify-content: center;
+    padding: 120px 200px;
     gap: 27px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
@@ -832,9 +833,10 @@ a {
     }
 
     .reactanglebutton {
-        padding: 20px;
+        padding: 132px;
     }
 
+    
 
 
 
