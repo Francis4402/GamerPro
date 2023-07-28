@@ -865,6 +865,7 @@ a {
     .footernav {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         gap: 40px;
         margin-bottom: 86px;
     }
@@ -898,6 +899,7 @@ a {
         display: flex;
         flex-wrap: wrap;
         gap: 50px;
+        justify-content: center;
         margin-bottom: 28px;
     }
     
@@ -915,6 +917,8 @@ a {
         color: rgba(255, 255, 255, 0.60);
         font-size: 16px;
         font-weight: 500;
+        display: flex;
+        text-align: center;
     }
     
 }
